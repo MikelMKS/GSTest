@@ -12,6 +12,8 @@ I am Mikel Fernando Ruiz Sotomayor, I am 24 years old and Information and Commun
 The project is built with Laravel v10, for its operation, I use Xampp with PHP version 8.2.4, and the database is created for MySQL environment.
 For the interface, I used one that I already had from another project, so it wouldn't look bad and I could have time to focus on the system's functionality.
 
+It involves Controllers,Models,Views,Routes,Migrations,Seeds,Helpers,Tests,Logs files
+
 I list technologies and libraries used in the project:
 
 - LARAVEL
@@ -42,6 +44,8 @@ Currently, I am learning to use React, so I preferred to carry out this project 
 
 El proyecto esta hecho con Laravel v10, para su funcionamiento hago uso de Xampp con PHP version 8.2.4, la base de datos esta creada para entorno de MySQL.
 Para la interfaz use una que ya tenia de otro proyecto, para que no se viera mal y tener tiempo para dedicarme a la funcionalidad del sistema.
+
+Tiene uso de Controllers,Models,Views,Routes,Migrations,Seeds,Helpers,Tests,Logs files
 
 Enlisto las tecnologias y librerias usadas en el proyecto:
 

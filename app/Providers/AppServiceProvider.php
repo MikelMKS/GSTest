@@ -19,6 +19,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        require dirname(__DIR__) . '/Providers/FunctionsProvider.php';
+        //
     }
 }

@@ -38,7 +38,7 @@ class NotificationsController extends Controller
         $message = $request->message_tex;
 
         // Validate data is not empty
-        $response = noEmpty($category,'CATEGORY',$response);
+        $response = noEmptyNumeric($category,'CATEGORY',$response);
         $response = noEmpty($message,'MESSAGE',$response);
 
         // If all data needed is not empty, continue
@@ -53,7 +53,7 @@ class NotificationsController extends Controller
             $this->send($notification->id);
         }
 
-        echo json_encode($response);
+        return json_encode($response);
     }
 
     // Send notification need the notification id

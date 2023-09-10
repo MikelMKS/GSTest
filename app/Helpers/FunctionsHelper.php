@@ -28,9 +28,21 @@ function noEmpty($val,$nombre,$response){
     return $response;
 }
 
-function existeArchivo($ruta,$nombre){
-    $busca = '../public/'.$ruta.'/'.$nombre;
-    return file_exists($busca)?TRUE:FALSE;
+function noEmptyNumeric($val,$nombre,$response){
+    if($response['sta'] == '0'){
+        if(empty($val)){
+            $response['sta'] = '1';
+            $response['msg'] = "YOU MUST COMPLETE THE FIELD '".$nombre."'";
+        }elseif(!is_numeric($val)){
+            $response['sta'] = '1';
+            $response['msg'] = "THE FIELD '".$nombre."' MUST BE NUMERIC";
+        }else{
+            $response['sta'] = '0';
+            $response['msg'] = "";
+        }
+    }
+
+    return $response;
 }
 
 ?>

@@ -120,9 +120,11 @@
                         <div class="card-body">
                             {{-- Home Description --}}
                             <span id="HomeDescription" hidden style="font-size:1.5em;color: var(--color-orange);">
+                                IMPORTANT RUN MIGRATIONS AND SEEDS BEFORE USE INTO "gstest" DATABASE
+                                <br>
                                 The system has 3 interfaces in addition to this one:
                                 <br><br>
-                                - Notificaciones: This is the breakdown of the notifications catalog from the database with the data. Right here, there's a button to display the form for 
+                                - Notificaciones: This is the breakdown of the notifications catalog from the database with the data. Right here, there's a button to display the form for
                                 creating a new notification. Creating a new notification adds it to the catalog and sends notifications to all types, saving the history of sent content in the database and logs.
                                 <br><br>
                                 - History:
@@ -131,8 +133,8 @@
                                     <br>
                                     Logs: Displays all logs of sent messages originating from notifications as well as those sent as standalone messages without being part of a notification.
                                 <br><br>
-                                There are 4 sending functions (all, SMS, email, push notifications). When creating a notification, the 'all' function is called, which in turn calls the other 3 methods to send 
-                                the notification. Likewise, each method has its own route for the unique use of a type to resend an existing notification or a single message, as well as the ability to send 
+                                There are 4 sending functions (all, SMS, email, push notifications). When creating a notification, the 'all' function is called, which in turn calls the other 3 methods to send
+                                the notification. Likewise, each method has its own route for the unique use of a type to resend an existing notification or a single message, as well as the ability to send
                                 it to a specific user.
                             </span>
                             {{-- Content Views Section --}}
