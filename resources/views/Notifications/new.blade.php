@@ -43,7 +43,7 @@ $("#saveNotification").on('submit', function(e){
     e.preventDefault();
     $.ajax({
         type: 'POST',
-        url: 'saveNotification',
+        url: "{{route('saveNotification')}}",
         data: new FormData(this),
         dataType: 'json',
         contentType: false,

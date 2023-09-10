@@ -6,7 +6,6 @@
     <button type="button" class="btn btn-success" onclick="newNotification()">New Notification</button>
     <span class="colvisBut"></span>
 </h5>
-<p></p>
 {{-- /HEAD --}}
 
 
@@ -23,16 +22,16 @@
             </tr>
             <tr>
                 <th class="col" style="width: 5% !important;">ID</th>
-                <th class="col" style="width: 30% !important;">CATEGORIES</th>
-                <th class="col" style="width: 50% !important;">MESSAGE</th>
+                <th class="col" style="width: 20% !important;">CATEGORIES</th>
+                <th class="col" style="width: 60% !important;">MESSAGE</th>
                 <th class="col" style="width: 15% !important;">CREATED AT</th>
             </tr>
         </thead>
         <tbody>
             @foreach($notifications as $t)
                 <tr>
-                    <td class="drillin" onclick="notificationDetails('{{$t->id}}')">{{$t->id}}</td>
-                    <td>{{$t->id_category}}</td>
+                    <td>{{$t->id}}</td>
+                    <td>{{$t->category}}</td>
                     <td class="lefti">{{$t->message}}</td>
                     <td>{{dateFormat($t->created_at)}}</td>
                 </tr>
@@ -81,6 +80,7 @@ function Dtable(){
         scrollY: "450px",
         scrollX: true,
         paging: false,
+        order: [[c_CID,'desc']],
         "language": {
             "sProcessing": "Processing...",
             "sZeroRecords": "No results found.",

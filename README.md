@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/MikelMKS/GSTest/blob/master/public/img/mikel.jpeg" width="400" alt="Laravel Logo"></p>
+<p align="center"><img src="https://github.com/MikelMKS/GSTest/blob/master/public/img/mikel.jpeg" width="250" alt="Laravel Logo"></p>
 
 <p align="center">
 <a href="www.linkedin.com/in/mikel-ms"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
@@ -14,21 +14,21 @@ For the interface, I used one that I already had from another project, so it wou
 
 I list technologies and libraries used in the project:
 
-- [LARAVEL]
-- [MYSQL]
-- [HTML]
-- [CSS]
-- [JAVASCRIPT]
-- [JQUERY]
-- [AJAX]
-- [BOOTSTRAP]
-- [SWEETALERT]
-- [SELECT2]
-- [DATATABLE]
+- LARAVEL
+- MYSQL
+- HTML
+- CSS
+- JAVASCRIPT
+- JQUERY
+- AJAX
+- BOOTSTRAP
+- SWEETALERT
+- SELECT2
+- DATATABLE
 
 ## Installation
 
-To use it, you need to download the entire project and install it using Composer. The database configuration is also set up, and all you need to do is use the command [php artisan migrate:fresh --seed], assuming you have a database named 'gstest' created. This will create the tables and populate the client catalog with 30 records, as well as the categories and notification types for system use.
+To use it, you need to download the entire project and install it using Composer. The database configuration is also set up, and all you need to do is use the command php artisan migrate:fresh --seed, assuming you have a database named 'gstest' created. This will create the tables and populate the client catalog with 30 records, as well as the categories and notification types for system use.
 
 In case of any situation, I am completely available at any time.
 
@@ -45,21 +45,21 @@ Para la interfaz use una que ya tenia de otro proyecto, para que no se viera mal
 
 Enlisto las tecnologias y librerias usadas en el proyecto:
 
-- [LARAVEL]
-- [MYSQL]
-- [HTML]
-- [CSS]
-- [JAVASCRIPT]
-- [JQUERY]
-- [AJAX]
-- [BOOTSTRAP]
-- [SWEETALERT]
-- [SELECT2]
-- [DATATABLE]
+- LARAVEL
+- MYSQL
+- HTML
+- CSS
+- JAVASCRIPT
+- JQUERY
+- AJAX
+- BOOTSTRAP
+- SWEETALERT
+- SELECT2
+- DATATABLE
 
 ## Instalación
 
-Para su uso es necesario bajar todo el proyecto e instalarlo con uso de composer, la configuración de la base de datos esta puesta también y bastara con usar el comando [php artisan migrate:fresh --seed] teniendo la base llamada 'gstest' creada, esto creara las tablas y llenara el catalogo de clientes con 30 registros, el de categorias y tipos de notificaciones para uso del sistema.
+Para su uso es necesario bajar todo el proyecto e instalarlo con uso de composer, la configuración de la base de datos esta puesta también y bastara con usar el comando php artisan migrate:fresh --seed teniendo la base llamada 'gstest' creada, esto creara las tablas y llenara el catalogo de clientes con 30 registros, el de categorias y tipos de notificaciones para uso del sistema.
 
 En caso de cualquier situación estoy totalmente disponible de horario
 

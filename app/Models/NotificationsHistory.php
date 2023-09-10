@@ -11,7 +11,7 @@ class NotificationsHistory extends Model
 
     protected $table = 'notifications_history';
     protected $primaryKey = 'id';
-    public $timestamps = ['created_at'];
+    const UPDATED_AT = null;
 
     protected $fillable = [
         'id_notification',

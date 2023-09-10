@@ -52,6 +52,24 @@ return [
     */
 
     'channels' => [
+        'sms' => [
+            'driver' => 'daily',
+            'path' => storage_path('logs/SMS/sms.log'),
+            'level' => 'info',
+        ],
+
+        'email' => [
+            'driver' => 'daily',
+            'path' => storage_path('logs/EMail/email.log'),
+            'level' => 'info',
+        ],
+
+        'pushn' => [
+            'driver' => 'daily',
+            'path' => storage_path('logs/PushNotifications/pushn.log'),
+            'level' => 'info',
+        ],
+
         'stack' => [
             'driver' => 'stack',
             'channels' => ['single'],
