@@ -154,8 +154,7 @@
 <script src="{{url('vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
 
 <script type="text/javascript">
-    const url = window.location.href;
-    if(url == "http://localhost/GSTest/public/"){
+    if('{{$windTit}}' == "HOME"){
         $('#HomeDescription').attr('hidden',false);
     }
 </script>
